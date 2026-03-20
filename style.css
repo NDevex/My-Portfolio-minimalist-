@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+ /* Make root the scroll container for snapping */
+}
+
+@media (min-width: 320px) {
+body {
+
+  /* Section 1 */
+
+  .Section1 {
+    background-color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .Section1 h1 {
+    color: #e0e0e0;
+  }
+  .Section1 p {
+    color: #e0e0e0;
+  }
+
+  .Section1 Button {
+    border-radius: 50px;
+    background-color: green;
+    width: 150px;
+    height: 50px;
+  }
+
+
+  .Section2 {
+    background-color: aqua;
+    
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .Section2 h1 {
+    color: #e0e0e0;
+  }
+  .Section2 p {
+    text-align: center;
+    color: #e0e0e0;
+  }
+}
+}
