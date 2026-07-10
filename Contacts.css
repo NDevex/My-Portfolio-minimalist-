@@ -1,0 +1,77 @@
+    .navbar {
+        display: flex;
+        gap: 100px;
+        list-style: none;
+        font-weight: 100;
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 10;
+        font-style: normal;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+
+        .navbar :hover {
+        color: #ccc5b9;
+        transform: scale(1);
+        transition: 0.5s ease-in-out;
+    } 
+
+        .HomeLabel {
+        position: relative;
+        color: #ffff;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .HomeLabel::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        width: 0px;
+        transform: translateX(-50%) scaleX(0);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .HomeLabel:hover::after {
+        width: 30px;
+        transform: translateX(-50%);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px;
+    }
+
+    .AboutMeLabel {
+        position: relative;
+        color: #ffff;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .AboutMeLabel::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        width: 0px;
+        transform: translateX(-50%) scaleX(0);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .AboutMeLabel:hover::after{
+        width: 30px;
+        transform: translateX(-50%);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px; 
+    }
+
