@@ -1,4 +1,10 @@
-    .navbar {
+ @media (min-width: 1200px) {
+    body {
+        background-color: #121212;
+    }
+}
+ 
+ .navbar {
         display: flex;
         gap: 100px;
         list-style: none;
@@ -18,11 +24,13 @@
         transform: scale(1);
         transition: 0.5s ease-in-out;
     } 
+    
 
     .HomeLabel {
         position: relative;
         color: #ffff;
         text-decoration: none;
+        display: inline-block;
     }
 
     .HomeLabel::after {
@@ -64,4 +72,32 @@
         height: 1px;
         background-color: white; 
         border-radius: 1px;
-}
+    }
+
+    .ContactsLabel {
+        position: relative;
+        color: #ffff;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .ContactsLabel::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        width: 0px;
+        transform: translateX(-50%) scaleX(0);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .ContactsLabel:hover::after {
+        width: 30px;
+        transform: translateX(-50%);
+        height: 1px;
+        background-color: white; 
+        border-radius: 1px;
+    }
