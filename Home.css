@@ -3,6 +3,8 @@
         background-color: #121212;
     }
 
+
+    /* NAV BAR SECTION */
     .navbar {
         display: flex;
         gap: 100px;
@@ -67,6 +69,34 @@
         border-radius: 1px; 
     }
 
+    .ContactsLabel {
+        position: relative;
+        color: #ffff;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .ContactsLabel::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 50%;
+        width: 0px;
+        transform: translateX(-50%) scaleX(0);
+        height: 1px;
+        background-color: white;
+        border-radius: 1px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .ContactsLabel:hover::after {
+        width: 30px;
+        transform: translateX(-50%);
+        height: 1px;
+        background-color: white;
+        border-radius: 1px;
+    }
+
 
     .navbar :hover {
         color: #ccc5b9;
@@ -74,6 +104,17 @@
         transition: 0.5s ease-in-out;
     } 
 
+
+
+
+
+
+
+
+
+
+
+/* HOME PAGE */
 
     .Home h1 {
         color: #f5f5f5;
@@ -128,6 +169,19 @@
         color: #f5f5f5;
         transition: 0.5s ease-in-out;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* Wave Animation Section*/
