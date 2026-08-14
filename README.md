@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Shann 👋
 
 > **Computer Engineering Student** | Aspiring **Software Engineer** | Learning **Web Development**
 
