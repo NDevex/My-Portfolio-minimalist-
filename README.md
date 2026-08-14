@@ -64,10 +64,10 @@ Welcome to my portfolio repository! I'm a Computer Engineering student with a pa
 
 ## 📫 Let's Connect
 
-- **Portfolio:** [yourportfolio.com](https://yourportfolio.com)
-- **LinkedIn:** [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **Portfolio:** [My Portfolio]([https://yourportfolio.com](https://ndevex.github.io/My-Portfolio-minimalist-/home.html))
+- **LinkedIn:** [linkedin.com/in/Shawn Agang]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/shawn-agang-16115338a/))
+- **Email:** [Shannmichaellagang@gmail.com](mailto:shannmichaelagang@gmail.com)
+- **GitHub:** [@NDevex]([https://github.com/yourusername](https://github.com/NDevex))
 
 ---
 
