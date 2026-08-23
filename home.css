@@ -1,6 +1,8 @@
 @media (min-width: 320px) {
     body {
         background-color: #121212;
+            overflow-x: hidden;
+    overflow-y: hidden;
     }
 
     .navbar {
@@ -16,6 +18,7 @@
         position: absolute;
         top: 50px;
         right: 100px;
+        z-index: 9999;
     }
 
     .HomeLabel {
@@ -129,6 +132,12 @@
         color: #f5f5f5;
     }
 
+    .HomeSection spline-viewer {
+    position: absolute;
+    bottom: 30px;
+    left: 400px;
+}
+
     .Apps {
         font-size: xx-large;
         display: flex;
@@ -139,6 +148,7 @@
         list-style: none;
         text-decoration: none;
         background-clip: text;
+        z-index: 9999;
     }
 
     .Apps a {
