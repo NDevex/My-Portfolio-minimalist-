@@ -9,7 +9,7 @@
 
     /* NAVBAR */
    .navbar {
-       background-color: white;
+       background-color: black;
         display: flex;
         gap: 100px;
         list-style: none;
