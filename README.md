@@ -49,18 +49,10 @@ Welcome to my portfolio repository! I'm a Computer Engineering student with a pa
 ### 📌 [Project 2: Web App Name]
 - **Description:** A full-stack web application designed to solve [specific problem].
 - **Tech Stack:** JavaScript, Node.js, Express, MongoDB
-- **Links:** [Live Demo](https://your-app.com) | [Repository](https://github.com/yourusername/project-repo)
 
 ---
 
-## 📈 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=minimal" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=minimal" alt="Top Languages" width="48%" />
-</div>
-
----
 
 ## 📫 Let's Connect
 
